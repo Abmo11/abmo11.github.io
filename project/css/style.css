@@ -27,12 +27,13 @@ header, main, footer {
     margin: 0 auto;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Josefin Sans', Helvetica, sans-serif;
 }
 
 h2 {
     color: #ffffff;
+    text-align: center;
 }
 
 main section p {
@@ -47,7 +48,6 @@ main section p {
     position: absolute;
     top: 6rem;
     left: 3rem;
-    font-family: 'Josefin Sans', Helvetica, sans-serif;
     background-color: #ff3232;
     opacity: .8;
     color: #ffffff;
@@ -73,6 +73,8 @@ main section p {
 
 .first-pic, .second-pic {
     box-shadow: .3rem .3rem .5rem #ff3232;
+    width: 100%;
+    height: auto;
 }
 
 .letter-one, .letter-two {
@@ -94,8 +96,12 @@ footer {
     grid-template-columns: 1fr 1fr;
 }
 
+.contact-info {
+    margin: 0rem 0rem 0rem 8rem;
+}
+
 .social {
-    text-align: right;
+    text-align: center;
 }
 
 .logo {
