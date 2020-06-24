@@ -71,13 +71,15 @@ main .wrapper section p {
     grid-template-columns: 1fr 1fr;
 }
 
-.first-pic, .second-pic, .temp-pic-two, .temp-pic-four, .temp-map {
+.first-pic, .second-pic {
     box-shadow: .3rem .3rem .5rem #ff3232;
     width: 100%;
     height: auto;
 }
 
-.letter-one, .letter-two, .services, .temp-address, .milestones {
+.letter-one, .letter-two, 
+/* Temple spotlight code: next 3 selectors*/
+.services, .temp-address, .milestones {
     background-color: #393939;
     padding: 1rem;
     text-align: center;
