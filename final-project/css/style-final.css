@@ -170,3 +170,11 @@ footer {
     grid-column: 1 / 4;
     padding: 1rem;
 }
+
+/* If screen goes under 550px */
+
+@media screen and (max-width: 550px) {
+    .wrapper {
+        display: block;
+    }
+}
