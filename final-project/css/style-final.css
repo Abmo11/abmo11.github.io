@@ -5,7 +5,7 @@
 .intro,
 section {
     background-color: lavender;
-    color: #00007A;
+    color: #000066;
     border-radius: .7rem;
     opacity: .82;
 }
@@ -221,6 +221,7 @@ footer {
 .body-nutrition section {
     background-color: #ffffff;
     opacity: .88;
+    color: #000066;
 }
 
 .wrapper-inside {
@@ -235,10 +236,7 @@ footer {
 
 .wrapper-inside .card {
     box-shadow: 2px 0 9px 0 darkslategray;
-
 }
-
-
 
 
 /* If screen goes under 550px */
