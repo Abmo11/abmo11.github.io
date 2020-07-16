@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Quicksand:wght@500&display=swap');
 
+/* Home Page */
+
 .intro,
 section {
     background-color: lavender;
@@ -14,7 +16,7 @@ section {
 }
 
 
-body {
+body, .body-nutrition {
     font-size: 16px;
     font-family: 'Quicksand', Arial, sans-serif;
     background-image: url('/final-project/images/whitebrickwall.jpg');
@@ -47,7 +49,7 @@ header nav {
     margin-top: 1.5rem;
 }
 
-.red-wrap {
+.red-wrap, .cutting-kitchen {
     width: 100%;
     height: auto;
     border-radius: 0 0 .7rem .7rem;
@@ -120,7 +122,7 @@ p {
 
 .card {
     width: 320px;
-    box-shadow: 5px 0 9px 0 black;
+    box-shadow: 5px 0 9px 0 darkslategray;
     border-radius: 8px;
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
@@ -152,7 +154,8 @@ footer {
 .logo-two {
     width: 250px;
     margin: 0 0 0 12rem;
-    margin-top: .5rem;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
 }
 
 .contact-info {
@@ -170,6 +173,73 @@ footer {
     grid-column: 1 / 4;
     padding: 1rem;
 }
+
+/* Nutrition Page Style */
+
+.body-nutrition header {
+    background-color: #000066;
+}
+
+.body-nutrition header .active {
+    color: #e00000;
+    background-color: #ffffff;
+} 
+
+.body-nutrition header a {
+    color: #ffffff;
+}
+
+.body-nutrition header a:hover {
+    color: #ffffff;
+    background-color: #e00000;
+}
+
+.body-nutrition {
+    background-image: url('/final-project/images/leaf.jpg');
+}
+
+.wrapper-nutrition {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
+
+.salmon-pic {
+    grid-column: 2/3;
+    width: 100%;
+    height: auto;
+}
+
+.body-nutrition header {
+    background-color: #000066;
+}
+
+.wrapper-nutrition img {
+    border-radius: .7rem;
+}
+
+.body-nutrition section {
+    background-color: #ffffff;
+    opacity: .88;
+}
+
+.wrapper-inside {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 2rem;
+}
+
+.wrapper-inside article {
+    background-color: #ffffff;
+}
+
+.wrapper-inside .card {
+    box-shadow: 2px 0 9px 0 darkslategray;
+
+}
+
+
+
 
 /* If screen goes under 550px */
 
