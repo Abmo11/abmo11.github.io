@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ParaBellum | Fitness</title>
+  <meta name="description" content="This page contains a brief intro to different exercise plans. 
+  It includes three different workout plans as well as a form to provide user more information on 
+  workout plans.">
+  <link rel="stylesheet" href="css/style-final.css">
+</head>
+
+<body class="body-fitness">
+  <header>
+    <a href="index.html"><img class="logo" src="images/ParaBellum-blk.jpg" alt="site logo"></a>
+    <nav>
+      <ul class="coolist">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="nutrition.html">Nutrition</a></li>
+        <li><a class="active" href="fitness.html">Fitness</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <img class="weight-hero" src="images/run-up.jpg" alt="Red 45 lb weight">
+    <section class="intro">
+      <h2>Train Smart</h2>
+      <p>
+        In order for you to gain muscle you’ll have to do some type of resistance training. This can be done
+        with or without weights. When it comes to losing weight there is nothing that works better than endurance
+        training. I recommend learning boxing. It is one of the most complete, full-body workouts you can do.
+        You will gain strength, stamina, hand-eye coordination, and agility, all while losing those extra
+        pounds. Below you will find simple to advanced workouts that have been tried and tested.
+      </p>
+    </section>
+
+    <div class="wrapper-fitness">
+      <article class="card">
+        <img src="images/home.jpg" alt="Living room with rug">
+        <h2>Beginner</h2>
+        <p>
+          This workout routine can be done at home. One ‘round’ of this includes all 6 exercises
+          (as described below) and will hit every muscle in your body. This is a great balance between
+          resistance and endurance training. No weights are required. You will want to stretch
+          before and after. Try 3 rounds to begin.
+        </p>
+      </article>
+
+      <article class="card">
+        <img src="images/lifter.jpg" alt="Guy in gym lifting weights">
+        <h2>Advanced</h2>
+        <p>
+          This workout is for the gym rat. The key here is to hit the muscles from every angle, so you’ll have
+          to use at least 2 different exercises for each body part. Tuesday and Thursday are light days and can
+          be accompanied by some form of light cardio (usually 20 mins).
+        </p>
+      </article>
+
+      <article class="card">
+        <img src="images/boxer.jpg" alt="Boxer throwing punch">
+        <h2>Weight Loss</h2>
+        <p>
+          This is the weight loss workout. Practice proper form as you will be more effective in activating your
+          muscles when throwing punches.<a class="video-link"
+            href="https://www.youtube.com/results?search_query=how+to+throw+punches+in+boxing"
+            target="_blank">YouTube</a> has great videos demonstrating proper form for each punch.
+          Throw as many punches as you can for each timed period. Try 3 rounds to begin.
+        </p>
+      </article>
+
+      <section class="plan">
+        <h2>No Weights</h2>
+        <p>
+          10 Jumping Jacks<br>
+          10 Push Ups<br>
+          10 Sit Ups<br>
+          10 Squats<br>
+          45 Sec. Plank<br>
+          5 Burpees
+        </p>
+      </section>
+
+      <section class="plan">
+        <h2>With Weights</h2>
+        <p>
+          MON: Forearms, Biceps and Back<br>
+          TUES: Calves<br>
+          WED: Chest, Triceps and Shoulders<br>
+          THUR: Abs<br>
+          FRI: Legs<br>
+        </p>
+      </section>
+
+      <section class="plan">
+        <h2>Boxing</h2>
+        <p>
+          10 Jumping Jacks<br>
+          20 Sec. Jabs<br>
+          30 Sec Plank<br>
+          ** Rest 15 Sec. **<br>
+          20 Sec. Uppercuts<br>
+          20 Sec. Cross Punches<br>
+          20 Sec. Hooks<br>
+          10 Crunches<br>
+        </p>
+      </section>
+    </div>
+
+    <section class="more">
+      <h2>Want More?</h2>
+      <p>
+        Want more workout routines? Fill out the form below to receive your personalized workout plan and more!
+      </p>
+    </section>
+
+    <form action="/fitness-form-page" method="post">
+      <ul>
+        <li>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user-name">
+        </li>
+        <li>
+          <label for="last-name">Last Name:</label>
+          <input type="text" id="last-name" name="user-last-name">
+        </li>
+        <li>
+          <label for="mail">E-mail:</label>
+          <input type="email" id="mail" name="user_email">
+        </li>
+        <li>
+          <label for="per-week">Workouts per week:</label>
+          <input type="number" id="per-week" name="user-per-week" min="2" max="6">
+        </li>
+        <li>
+          <label for="goal">I want to gain muscle</label>
+          <input type="checkbox" id="goal" name="goal" value="muscle">
+        </li>
+        <li>
+          <label for="goal-goal">I want to lose weight</label>
+          <input type="checkbox" id="goal-goal" name="goal-goal" value="lose-weight">
+        </li>
+        <li>
+          <label for="more-media">Yes, send me related info (meal plans, how-to videos, articles, etc.)</label>
+          <input type="checkbox" id="more-media" name="more-media" value="send-more">
+        </li>
+        <li>
+          <button type="submit">Submit</button>
+        </li>
+      </ul>
+    </form>
+
+  </main>
+  <footer>
+    <img class="logo-two" src="images/ParaBellum-blue.jpg" alt="site logo">
+
+    <div class="contact-info">
+      PARABELLUM Strength and Health Headquarters<br>
+      300 Reunion Blvd E<br>
+      Dallas, TX 75207<br>
+      972-111-0000<br>
+      info@parabellum.com
+    </div>
+    <div class="social">
+      <p>Connect with us!</p>
+      <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube-icon.png" alt="Youtube Icon"></a>
+      <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-icon.png" alt="Facebook Icon"></a>
+      <a href="https://www.pinterest.com/" target="_blank"><img src="images/pinterest-icon.png"
+          alt="Pinterest Icon"></a>
+    </div>
+
+    <div class="boring-stuff">
+      Copyright &copy; 2020 PARABELLUM Strength & Health | All Rights Reserved | Privacy and Cookie Statement | Abraham
+      Moreno
+    </div>
+  </footer>
+</body>
+
+</html>

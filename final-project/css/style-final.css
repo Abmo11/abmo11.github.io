@@ -7,7 +7,7 @@ section {
     background-color: lavender;
     color: #000066;
     border-radius: .7rem;
-    opacity: .82;
+    opacity: .88;
 }
 
 .intro {
@@ -16,7 +16,7 @@ section {
 }
 
 
-body, .body-nutrition {
+body, .body-nutrition, .body-fitness {
     font-size: 16px;
     font-family: 'Quicksand', Arial, sans-serif;
     background-image: url('/final-project/images/whitebrickwall.jpg');
@@ -49,7 +49,7 @@ header nav {
     margin-top: 1.5rem;
 }
 
-.red-wrap, .cutting-kitchen {
+.red-wrap, .cutting-kitchen, .weight-hero {
     width: 100%;
     height: auto;
     border-radius: 0 0 .7rem .7rem;
@@ -86,6 +86,7 @@ nav a:hover {
 h2 {
     text-align: center;
     color: #e00000;
+    font-family: 'Josefin Sans', Arial, sans-serif;
 }
 
 .wrapper {
@@ -124,7 +125,7 @@ p {
     width: 320px;
     box-shadow: 5px 0 9px 0 darkslategray;
     border-radius: 8px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Quicksand', Helvetica, sans-serif;
     overflow: hidden;
     font-size: 15px;
     margin: 0 auto;
@@ -148,7 +149,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-radius: .7rem .7rem 0 0;
-    opacity: .86;
+    opacity: .88;
 }
 
 .logo-two {
@@ -210,10 +211,6 @@ footer {
     height: auto;
 }
 
-.body-nutrition header {
-    background-color: #000066;
-}
-
 .wrapper-nutrition img {
     border-radius: .7rem;
 }
@@ -238,6 +235,86 @@ footer {
     box-shadow: 2px 0 9px 0 darkslategray;
 }
 
+/* Fitness Page Style */
+
+.body-fitness {
+    background-image: url('/final-project/images/rox.jpg');
+}
+
+.wrapper-fitness {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
+
+.video-link {
+    color: #e00000;
+}
+
+.plan{
+    text-align: center;
+}
+
+.more {
+    margin: 2rem;
+    text-align: center;
+    padding: .3rem;
+    color: #e00000;
+    font-weight: bold;
+}
+
+/* Fitness Header Style */
+
+.body-fitness header {
+    background-color: #000000;
+}
+
+.body-fitness header .active {
+    color: #ffffff;
+    background-color: #e00000;
+} 
+
+.body-fitness header a {
+    color: #ffffff;
+}
+
+.body-fitness header a:hover {
+    color: #000066;
+    background-color: #ffffff;
+}
+
+/* Form Style */
+
+form {
+    margin: 1rem auto;
+    width: 600px;
+    color: #ffffff;
+    background-color: #000066;
+    opacity: .88;
+    /* Form outline */
+    padding: 1rem;
+    border-radius: .7rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li+li {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 300px;
+    text-align: right;
+}
+
+button {
+    margin-left: 19.2rem;
+}
 
 /* If screen goes under 550px */
 
