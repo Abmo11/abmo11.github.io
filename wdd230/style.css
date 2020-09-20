@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Open+Sans:wght@300&display=swap');
+
+
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+
+header,
+main,
+footer {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    background-color: olive;
+}
+
+header {
+    border-radius: 0 0 .7rem .7rem;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    font-family: 'Josefin Sans', Helvetica, sans-serif;
+
+}
+
+footer {
+    border-radius: .7rem .7rem 0 0;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-align: center;
+}
+
+h1 {
+    margin-left: 120px;
+    color: lavender;
+}
+
+h2, ul {
+    margin-left: 30px;
+}
