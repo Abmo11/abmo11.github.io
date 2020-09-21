@@ -32,6 +32,12 @@ footer {
     padding-top: .5rem;
     padding-bottom: .5rem;
     text-align: center;
+    font-size: 14px;
+    color: wheat;
+}
+
+#lastMod {
+    color: white;
 }
 
 h1 {
@@ -41,4 +47,17 @@ h1 {
 
 h2, ul {
     margin-left: 30px;
+}
+
+.self {
+    float: right;
+    width: 150px;
+    height: auto;
+    margin: 1rem;
+    border-radius: .7rem;
+    box-shadow : 3px 3px 6px .5px;
+}
+
+footer a {
+    color: wheat;
 }
