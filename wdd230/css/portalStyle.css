@@ -23,8 +23,6 @@ header {
     padding-top: .3rem;
     padding-bottom: .3rem;
     font-family: 'Josefin Sans', Helvetica, sans-serif;
-    font-size: 18px;
-
 }
 
 footer {
@@ -62,3 +60,4 @@ ul {
 footer a {
     color: wheat;
 }
+
