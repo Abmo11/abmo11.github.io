@@ -8,7 +8,7 @@ body {
 header {
     background-color: slategray;
     color: white;
-    max-width: 1050px;
+    width: 1050px;
     margin: 0 auto;
     padding-bottom: .5rem;
     margin-bottom: .7rem;
@@ -35,21 +35,34 @@ main {
 a {
     text-align: center;
     margin-top: 7rem;
-    margin-bottom: 12rem;
 }
 
 main,
 footer {
-    max-width: 930px;
+    width: 930px;
     margin: 0 auto;
 }
 
 footer {
-    margin-top: .5rem;
     background-color: slategray;
     color: #ffffff;
     padding: 1.8rem;
     border-radius: .7rem .7rem 0 0;
     text-align: center;
     opacity: .92;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.pageHeader,
+.pageFooter {
+    flex-shrink: 0;
+}
+
+.pageBody {
+    flex-grow: 1;
 }
