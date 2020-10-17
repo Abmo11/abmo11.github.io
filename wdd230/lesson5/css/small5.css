@@ -81,23 +81,51 @@ nav {
     font-size: .9rem;
     position: absolute;
     background-color: #85fffd;
-    top: 1rem;
-    left: 1rem;
+    top: 3rem;
+    left: 3rem;
     padding: .8rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-radius: 1rem;
 }
 
+.wSummary p {
+    margin: .3rem;
+}
+
 .frsPic {
-    width: 39%;
+    width: 50%;
     float: right;
-    margin-left: 1rem;
+    margin-left: 1.3rem;
     margin-bottom: 1rem;
 }
 
 .frsLetter {
     text-align: justify;
+}
+
+.frCst {
+    column-count: 5;
+    column-gap: 0;
+}
+
+.dayCast img {
+    width: 50%;
+}
+
+.dayCast {
+    text-align: center;
+}
+
+.temp {
+    display: block;
+    font-size: 0.8rem;
+}
+
+.dayWk {
+    font-weight: 700;
+    font-size: 1rem;
+    display: block;
 }
 
 h3 {
@@ -119,7 +147,6 @@ h2 {
     margin: 1rem auto;
     border: 1px dashed #e8175d;
     padding: 15px;
-    font-style: italic;
     color: #ffffff;
     background-color: #e8175d;
 }
