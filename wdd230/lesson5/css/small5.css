@@ -78,7 +78,7 @@ nav {
 }
 
 .wSummary {
-    font-size: .9rem;
+    font-size: .7rem;
     position: absolute;
     background-color: #85fffd;
     top: 3rem;
@@ -87,10 +87,11 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-radius: 1rem;
+    font-weight: 600;
 }
 
 .wSummary p {
-    margin: .3rem;
+    margin: .2rem;
 }
 
 .frsPic {
@@ -167,11 +168,13 @@ h2 {
 }
 
 .mediaLinks {
-    display: flex;
+    display: grid;
+    grid-template-columns: 30px 30px 30px;
+    grid-gap: 1rem;
 }
 
 .mediaLinks a img {
-    width: 60%;
+    width: 100%;
     height: auto;
 }
 

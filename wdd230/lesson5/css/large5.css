@@ -11,4 +11,12 @@
         background-image: linear-gradient(#85fffd, #d8d8d8);
     }
 
+    .wSummary {
+        font-size: .9rem;
+    }
+
+    .wSummary p {
+        margin: .3rem;
+    }
+
 }
